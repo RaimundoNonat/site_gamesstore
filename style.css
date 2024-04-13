@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(12, 98, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: white;
+    font-family: "Jersey 10 Charted";
+    font-weight: 200;
+    font-size: 60px;
+    margin-left: 300px;
+    transition: 1s;
+}
+
+header h1:hover {
+    color: white;
+    font-family: "Jersey 10 Charted";
+    font-weight: 200;
+    font-size: 62px;
+    margin-left: 300px;
+    transition: 0.5s;
+}
+
+header p {
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+    color: rgb(229, 247, 250);
+    margin: 50px 200px 0px 0px;
+    border-bottom: 1px solid rgb(15, 69, 141);
+    cursor: pointer;
+}
+
+header p:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.loja {
+    display: flex;
+    margin: 5%;
+    font-family: "Noto Serif", serif;
+}
+
+nav .imagem img {
+    width: 700px;
+    height: auto;
+    border-radius: 5px;
+}
+
+nav .texto {
+    margin: 2%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    margin: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+section div p {
+    text-align: left;
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+}
+
+
+section img {
+    width: 150px;
+    height: auto;
+}
+
+section .play {
+    margin-top: -15%;
+}
+
+form,
+.container {
+    border-radius: 15px;
+    background-color: rgb(225, 237, 243);
+    margin: 0% 25% 5% 25%;
+    padding: 1%;
+}
+
+.container h1 {
+    color: rgb(4, 63, 110);
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 1%;
+}
+
+.formu {
+    display: flex;
+}
+
+form .formulario {
+    display: grid;
+    font-family: "Noto Serif", serif;
+    height: 10px;
+}
+
+.formu div {
+    margin: 2% 5%;
+
+}
+
+form .formulario label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+form .formulario input {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+form .mensagem textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.botao {
+    text-align: center;
+}
+
+.botao button {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(142, 233, 139);
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(4, 63, 110);
+}
+
+.botao button:active {
+    background-color: rgb(98, 165, 96);
+}
+
+footer,
+.rodape {
+    background-color: rgb(12, 98, 228);
+    padding: 5% 5% 2% 5%;
+    text-align: center;
+
+}
+
+.rodape p {
+    color: #FFF;
+    font-size: 18px;
+    
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    margin: 1% 1% 5% 1%;
+    cursor: pointer;
+}
