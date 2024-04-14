@@ -21,7 +21,7 @@ header h1 {
     font-family: "Jersey 10 Charted";
     font-weight: 200;
     font-size: 60px;
-    margin-left: 300px;
+    margin-left: 15vw;
     transition: 1s;
 }
 
@@ -30,7 +30,6 @@ header h1:hover {
     font-family: "Jersey 10 Charted";
     font-weight: 200;
     font-size: 62px;
-    margin-left: 300px;
     transition: 0.5s;
 }
 
@@ -39,14 +38,12 @@ header p {
     font-weight: 600;
     color: rgb(229, 247, 250);
     margin: 50px 200px 0px 0px;
-    border-bottom: 1px solid rgb(15, 69, 141);
     cursor: pointer;
 }
 
 header p:hover {
-    border-bottom: 1px solid white;
+    color: #101291;
 }
-
 
 .loja {
     display: flex;
@@ -55,7 +52,7 @@ header p:hover {
 }
 
 nav .imagem img {
-    width: 700px;
+    width: 45vw;
     height: auto;
     border-radius: 5px;
 }
@@ -80,7 +77,6 @@ section div p {
     font-family: "Noto Serif", serif;
     font-size: 15px;
 }
-
 
 section img {
     width: 150px;
@@ -130,18 +126,22 @@ form .formulario label {
 
 form .formulario input {
     width: 200px;
-    color: blue;
+    color: rgb(45, 45, 207);
     font-weight: 500;
     margin-bottom: 10px;
 }
 
+form .formulario input:focus {
+    border-radius: 2px;
+}
+
 form .mensagem textarea {
-    width: 50vh;
+    width: 25vw;
     height: 150px;
     padding: 10px;
     resize: none;
     border-radius: 5px;
-    color: blue;
+    color: rgb(45, 45, 207);
 }
 
 .botao {
@@ -152,7 +152,7 @@ form .mensagem textarea {
     width: 150px;
     height: 30px;
     background-color: rgb(142, 233, 139);
-    border-color: transparent;
+    border: 1px solid green;
     border-radius: 5px;
     cursor: pointer;
     color: rgb(4, 63, 110);
@@ -167,13 +167,15 @@ footer,
     background-color: rgb(12, 98, 228);
     padding: 5% 5% 2% 5%;
     text-align: center;
-
 }
 
 .rodape p {
     color: #FFF;
     font-size: 18px;
-    
+}
+
+footer .copy {
+    font-size: 14px;
 }
 
 footer img {
